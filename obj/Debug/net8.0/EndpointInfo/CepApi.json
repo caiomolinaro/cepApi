@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "CepApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/cep": {
+      "get": {
+        "tags": [
+          "CepApi"
+        ],
+        "parameters": [
+          {
+            "name": "Cep",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "pattern": "^\\d+$",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
