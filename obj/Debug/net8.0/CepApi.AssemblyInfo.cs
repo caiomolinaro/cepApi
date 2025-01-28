@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CepApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac215ebd436d8e5b003039bfceec2cf43eaa1b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CepApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CepApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
